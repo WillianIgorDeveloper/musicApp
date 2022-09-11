@@ -1,0 +1,58 @@
+/*==================== 
+    Stylization type: #
+====================*/
+
+/*========== REM measure ==========*/
+/* For screens bigger than 1080px: 16px(defalt) */
+/* For screens smaller than 1080px*/
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%; /* 15px */
+    }
+}
+/* For screens smaller than 720px*/
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%; /* 14px */
+    }
+}
+
+
+
+/*========== Variables ==========*/
+:root {
+    /*========== Colors ==========*/
+    --gray-10: hsl(0, 0%, 10%);
+    --gray-13: hsl(0, 0%, 13%);
+    --gray-20: hsl(0, 0%, 20%);
+    --gray-50: hsl(0, 0%, 50%);
+    --gray-90: hsl(0, 0%, 90%);
+
+    --blue-10: hsl(205, 75, 10%);
+    --blue-50: hsl(205, 75, 50%);
+    --blue-90: hsl(205, 75, 90%);
+}
+
+
+
+/*========== Global ==========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: var(--gray-13);
+    background-image: linear-gradient(to bottom, var(--gray-13) , var(--gray-10));
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--gray-90);
+}
+img {
+    width: 100%;
+    height: auto;
+}
