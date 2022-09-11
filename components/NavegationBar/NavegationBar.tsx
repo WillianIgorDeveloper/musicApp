@@ -41,19 +41,19 @@ export default function NavegationBar () {
             </ul>
             <ul className={styles.linksContainer}>
                 <li>
-                    <Link href={'/buscar'}>
+                    <Link href={'/'}>
                         <a><Heart />Curtidas</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href={'/buscar'}>
+                    <Link href={'/'}>
                         <a><Books />Sua Biblioteca</a>
                     </Link>
                 </li>
             </ul>
             <ul className={styles.linksContainer}>
                 <li>
-                    <Link href={'/buscar'}>
+                    <Link href={'/'}>
                         <a><Playlist />Criar Playlist</a>
                     </Link>
                 </li>
@@ -61,7 +61,7 @@ export default function NavegationBar () {
             <ul className={styles.playlistsContainer}>
                 {data.map(playlist => {
                     return(
-                        <li>
+                        <li key={playlist.id}>
                             <Link href={`/playlist/${playlist.slug}`}>
                                 <a >{playlist.slug}</a>
                             </Link>
