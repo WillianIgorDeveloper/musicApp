@@ -62,7 +62,7 @@ export default function NavegationBar () {
                 {data.map(playlist => {
                     return(
                         <li>
-                            <Link href={`/${playlist.slug}`}>
+                            <Link href={`/playlist/${playlist.slug}`}>
                                 <a >{playlist.slug}</a>
                             </Link>
                         </li>
