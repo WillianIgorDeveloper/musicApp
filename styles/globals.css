@@ -44,8 +44,6 @@
     text-decoration: none;
 }
 body {
-    min-height: 100vh;
-    min-width: 100vw;
     background-color: var(--gray-13);
     background-image: linear-gradient(to bottom, var(--gray-13) , var(--gray-10));
     font-family: 'Roboto', sans-serif;

@@ -2,6 +2,7 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import '../styles/globals.css'
 import styles from '../styles/app.module.scss'
+import Player from '../components/player/Player'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -18,7 +19,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <Component {...pageProps} />
           </div>
         </div>
-        {/* Player */}
+        <Player />
       </div>
     </>
   )
