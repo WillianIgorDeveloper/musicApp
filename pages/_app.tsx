@@ -3,6 +3,7 @@ import Head from 'next/head'
 import '../styles/globals.css'
 import styles from '../styles/app.module.scss'
 import Player from '../components/player/Player'
+import NavegationBar from '../components/NavegationBar/NavegationBar'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -14,7 +15,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
       <div className={styles.page}>
         <div className={styles.upContainer}>
-          {/* NavegationBar */}
+          <NavegationBar />
           <div className={styles.mainContainer}>
             <Component {...pageProps} />
           </div>
