@@ -16,6 +16,7 @@ Este é um app para reprodução de músicas feito com o intúito de aprendizage
 - SASS
 - React
 - Next
+- Typescript
 - Vercel (deployment)
 
 <br>
