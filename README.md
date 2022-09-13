@@ -6,7 +6,7 @@ Este é um app para reprodução de músicas feito com o intúito de aprendizage
 
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/892816555069538375/1019331522672721970/unknown.png)
+![App Screenshot](https://cdn.discordapp.com/attachments/892816555069538375/1019335582306021446/unknown.png)
 
 <br>
 
@@ -17,6 +17,13 @@ Este é um app para reprodução de músicas feito com o intúito de aprendizage
 - React
 - Next
 - Vercel (deployment)
+
+<br>
+
+## Funcionalidades
+
+- Dynamic routes
+- "404 Not Found" page
 
 <br>
 
