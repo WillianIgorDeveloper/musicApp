@@ -1,8 +1,6 @@
-import styles from '../styles/notFound.module.scss'
-
 export default function NotFound () {
     return(
-        <div className={styles.container}>
+        <div className="mainContentTemp">
             <h1>404 Not Found</h1>
         </div>
     )

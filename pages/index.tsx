@@ -1,7 +1,7 @@
 export default function Index () {
   return (
-    <main>
-      <h1>Wellcome!</h1>
+    <main className="mainContentTemp">
+      <h1>Seja bem vindo!</h1>
     </main>
   )
 }

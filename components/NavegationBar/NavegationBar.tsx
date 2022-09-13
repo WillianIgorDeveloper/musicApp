@@ -41,12 +41,12 @@ export default function NavegationBar () {
             </ul>
             <ul className={styles.linksContainer}>
                 <li>
-                    <Link href={'/'}>
+                    <Link href={'/curtidas'}>
                         <a><Heart />Curtidas</a>
                     </Link>
                 </li>
                 <li>
-                    <Link href={'/'}>
+                    <Link href={'/sua-biblioteca'}>
                         <a><Books />Sua Biblioteca</a>
                     </Link>
                 </li>
