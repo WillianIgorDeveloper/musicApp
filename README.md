@@ -1,9 +1,3 @@
-<div align="right">
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-</div>
-
 # MusicApp
 
 Este é um app para reprodução de músicas feito com o intúito de aprendizagem.
