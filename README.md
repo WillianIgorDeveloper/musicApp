@@ -1,13 +1,17 @@
 ## Getting Started
 
-First, run the development server:
+Primeiro, instale as dependências com:
+```bash
+npm install
+```
 
+Segundo, rode o servidor de desenvolvimento:
 ```bash
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-### 🚧 App in development 🚧
+### 🚧 App em desenvolvimento... 🚧
